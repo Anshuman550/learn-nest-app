@@ -11,6 +11,5 @@ export class user{
     {
         console.log("tesing and testing")
         return "Tata"
-        return "Apple"
     }
 }
