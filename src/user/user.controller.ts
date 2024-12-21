@@ -13,7 +13,6 @@ export class userConstroller
     @Get("address")
     address()
     {
-        
         return this.userService.userOffice()
     }
 }
