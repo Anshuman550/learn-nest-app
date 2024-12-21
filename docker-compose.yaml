@@ -3,3 +3,13 @@ services:
     build: .
     ports:
       - 5000:3000
+    environment:
+      - MONGO_URI=mongodb://mongo:27017
+  #   depends_on:
+  #     - mongo
+  # mongo:
+  #   image: mongo:4.4
+  #   ports:
+  #     - 27017 #27017:27017
+  #   volumes:
+  #     - mongodb_data:/data/db
