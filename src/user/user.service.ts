@@ -9,6 +9,6 @@ export class user{
     }
     userOffice()
     {
-        return "google"
+        return "Apple"
     }
 }
